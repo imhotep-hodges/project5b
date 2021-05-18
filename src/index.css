@@ -12,6 +12,13 @@ code {
     monospace;
 }
 
+/* --- Questions --- */
+
+.ques {
+  background-color: white;
+  color: black;
+}
+
 /* ---- SidebarNav --- */
 
 .wrapper {
