@@ -17,18 +17,14 @@ code {
 .wrapper {
   display: flex;
   position: fixed;
-  
-}
-
-.wrapper .navbar {
-  position: fixed;
   float: right;
   width: 250px;
   height: 100%;
   background-color: black;
-  padding: 30px 0;
+  
   
 }
+
 
 .nav-links {
   color: #c21414;
@@ -39,11 +35,16 @@ code {
 }
 
 .navBrand {
-  margin: 20px;
+  margin: 10px 30px 20px 20px;
   font-family: 'Fugaz One', cursive;
+  
   
 }
 
 .navBrand, h1 {
   color: white;
+}
+
+li {
+  list-style: none;
 }

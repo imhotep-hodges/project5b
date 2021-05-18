@@ -7,7 +7,7 @@ function Navbar() {
     
     return (
         <div className="wrapper">
-          <div className="navbar">
+          
             <div className="nav-container">
             
                 <h1 className="navBrand">
@@ -21,13 +21,13 @@ function Navbar() {
                       <button type="button" class="btn btn-danger btn-lg">Question #1</button>
                     </Link>
                     </li>
-
+                    <br />
                     <li className="nav-item">
                     <Link to="#" className="nav-links">  
                     <button type="button" class="btn btn-danger btn-lg">Question #2</button>
                     </Link>
                     </li>
-
+                    <br />
                     <li className="nav-item">
                     <Link to="#" className="nav-links">   
                     <button type="button" class="btn btn-danger btn-lg">Question #3</button>
@@ -36,7 +36,7 @@ function Navbar() {
                 </ul>
 
             </div>
-         </div> 
+           
         </div>
     );
 };
