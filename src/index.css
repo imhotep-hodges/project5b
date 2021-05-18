@@ -31,8 +31,6 @@ code {
 }
 
 .nav-links {
-  margin: 50px;
-  padding-bottom: 10%;
   color: #c21414;
   font-size: 22px;
   font-family: 'Roboto', sans-serif;
@@ -43,4 +41,9 @@ code {
 .navBrand {
   margin: 20px;
   font-family: 'Fugaz One', cursive;
+  
+}
+
+.navBrand, h1 {
+  color: white;
 }
