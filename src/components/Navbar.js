@@ -18,19 +18,19 @@ function Navbar() {
 
                     <li className="nav-item">
                     <Link to="#" className="nav-links"> 
-                      <button type="button" class="btn btn-danger btn-lg">Question #1</button>
+                      <button type="button" class="btn btn-danger btn-lg">Group A</button>
                     </Link>
                     </li>
                     <br />
                     <li className="nav-item">
                     <Link to="#" className="nav-links">  
-                    <button type="button" class="btn btn-danger btn-lg">Question #2</button>
+                    <button type="button" class="btn btn-danger btn-lg">Group B</button>
                     </Link>
                     </li>
                     <br />
                     <li className="nav-item">
                     <Link to="#" className="nav-links">   
-                    <button type="button" class="btn btn-danger btn-lg">Question #3</button>
+                    <button type="button" class="btn btn-danger btn-lg">Group C</button>
                     </Link>
                     </li>               
                 </ul>
