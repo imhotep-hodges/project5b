@@ -1,12 +1,15 @@
 import React from 'react';
 
-function Question1 (props) {
-
+function Question1(props) {
     return (
-        <h1> {props.question} </h1>
-
+        <h2> {props.question} </h2> 
+            
+        
     );
 
 }
+
+
+
 
 export default Question1;

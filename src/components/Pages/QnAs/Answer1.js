@@ -1,15 +1,27 @@
 import React from 'react';
 
-function Answer1(props) {
 
+function Answer1(props) {
+    let classes = ['answer'];
+    if (props.selected) {
+        classes.push('selected');
+
+    }
     return (
-        <button value={props.letter} >  
-            <span className="answer"> {props.letter}. </span> {props.answer}
+        <div className="answerall">       
+            <button value={props.letter} className={classes.join(' ')} onClick={props.handleClick} >  
+            <span> {props.letter}. </span> {props.answer}
         
-        </button>
+            </button>
+        </div>
+        
 
     );
 
 }
+
+
+
+
 
 export default Answer1;

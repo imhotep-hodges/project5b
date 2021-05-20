@@ -15,21 +15,26 @@ function Navbar() {
                 </h1>
                 
                 <ul className="btn-group-vertical" role="group" aria-label="Basic example">
-
+                <li className="nav-item">
+                    <Link to="/" className="nav-links"> 
+                      <button type="button" class="btn btn-danger btn-lg">Home</button>
+                    </Link>
+                    </li>
+                    <br />
                     <li className="nav-item">
-                    <Link to="#" className="nav-links"> 
+                    <Link to="/GroupA.js" className="nav-links"> 
                       <button type="button" class="btn btn-danger btn-lg">Group A</button>
                     </Link>
                     </li>
                     <br />
                     <li className="nav-item">
-                    <Link to="#" className="nav-links">  
+                    <Link to="/GroupB.js" className="nav-links">  
                     <button type="button" class="btn btn-danger btn-lg">Group B</button>
                     </Link>
                     </li>
                     <br />
                     <li className="nav-item">
-                    <Link to="#" className="nav-links">   
+                    <Link to="/GroupC.js" className="nav-links">   
                     <button type="button" class="btn btn-danger btn-lg">Group C</button>
                     </Link>
                     </li>               
