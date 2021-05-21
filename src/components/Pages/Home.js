@@ -4,13 +4,14 @@ import React from 'react';
 
 function Home() {
     return (
-        <div className="home">
-            <h1 className="welcomeHome">Home</h1>
-            <br></br>
-            <div className="hometitle">
-                <h1> Test </h1>
-            </div>    
+        <div className="container">
+            
+            <h2 className="text-center py-4"> Learning React is fun! </h2>
+            <br />
+            <br />
+            <br />
         </div>
+        
     );
 };
 

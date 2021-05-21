@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Question1(props) {
+function Question2(props) {
     return (
         <h2 className="py-4"> {props.question} </h2> 
             
@@ -12,4 +12,4 @@ function Question1(props) {
 
 
 
-export default Question1;
+export default Question2;

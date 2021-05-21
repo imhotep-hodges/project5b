@@ -1,23 +1,23 @@
 import React from 'react';
-import Answer1 from '/Users/larryh1981/project05/src/components/Pages/QnAs/Answer1';
+import Answer3 from '/Users/larryh1981/project05/src/components/Pages/QnAs/Answer3';
 
 
-function Answer1b(props){
+function Answer3b(props){
     return (
         <>
-            <Answer1 
+            <Answer3 
             letter="a" 
             answer={props.question.answer_a} 
             handleClick={props.handleClick} 
             selected={props.currentAnswer === 'a'} />
             <br />
-            <Answer1 
+            <Answer3 
             letter="b" 
             answer={props.question.answer_b} 
             handleClick={props.handleClick} 
             selected={props.currentAnswer === 'b'} />
             <br />
-            <Answer1
+            <Answer3
             letter="c" 
             answer={props.question.answer_c} 
             handleClick={props.handleClick} 
@@ -30,4 +30,4 @@ function Answer1b(props){
 
 }
 
-export default Answer1b;
+export default Answer3b;

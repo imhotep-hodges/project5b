@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Answer1(props) {
+function Answer3(props) {
     let classes = ['answer'];
     if (props.selected) {
         classes.push('selected');
@@ -21,4 +21,4 @@ function Answer1(props) {
 }
 
 
-export default Answer1;
+export default Answer3;

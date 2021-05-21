@@ -105,18 +105,22 @@ function GroupA() {
 
     if (showResults) {
         return (
-            <div className='container' id='results'>
+            <div className='container text-center py-4' id='results'>
                     <h2> Results </h2>
                     <ul>{renderResultsData()}</ul>
                 <button className='btn btn-secondary btn-sm' onClick={restart} >
                     Restart Quiz
                 </button>
+                <br />
+                <br />
+                <br />
+                <br />
             </div>
         )
     } else {
 
         return (
-            <div className="container">
+            <div className="container text-center">
             
       
                 <Progress1 total={questions.length} current={currentQuestion + 1} /> 
@@ -129,6 +133,10 @@ function GroupA() {
                 <button className='btn btn-secondary btn-sm' onClick={next} >
                     Submit Answer
                 </button>
+                <br />
+                <br />
+                <br />
+                <br />
             
       
             </div>
