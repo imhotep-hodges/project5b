@@ -24,6 +24,10 @@ code {
   color: black;
 }
 
+#error {
+  color: red;
+}
+
 .answerall {
   margin-left:auto;
   margin-right:auto;
