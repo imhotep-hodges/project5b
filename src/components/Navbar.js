@@ -9,10 +9,7 @@ function Navbar() {
         <div className="wrapper">
           
             <div className="nav-container">
-            
-                <h1 className="navBrand">
-                Project #5 
-                </h1>
+            <br />
                 
                 <ul className="btn-group-vertical" role="group" aria-label="Basic example">
                 <li className="nav-item">
@@ -23,19 +20,19 @@ function Navbar() {
                     <br />
                     <li className="nav-item">
                     <Link to="/GroupA.js" className="nav-links"> 
-                      <button type="button" class="btn btn-danger btn-lg">Group A</button>
+                      <button type="button" class="btn btn-danger btn-lg">HTML Quiz</button>
                     </Link>
                     </li>
                     <br />
                     <li className="nav-item">
                     <Link to="/GroupB.js" className="nav-links">  
-                    <button type="button" class="btn btn-danger btn-lg">Group B</button>
+                    <button type="button" class="btn btn-danger btn-lg">CSS Quiz</button>
                     </Link>
                     </li>
                     <br />
                     <li className="nav-item">
                     <Link to="/GroupC.js" className="nav-links">   
-                    <button type="button" class="btn btn-danger btn-lg">Group C</button>
+                    <button type="button" class="btn btn-danger btn-lg">Javascript Quiz</button>
                     </Link>
                     </li>               
                 </ul>

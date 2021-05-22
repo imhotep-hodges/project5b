@@ -14,27 +14,43 @@ function GroupA() {
     const questions = [
         {
             id: 1,
-            question: "Is this a Test?",
-            answer_a: "True",
-            answer_b: "False",
-            answer_c: "I don't know",
-            correct_answer: "a",
+            question: "What does HTML stand for?",
+            answer_a: "Hyper Tool Machine Language",
+            answer_b: "Hyper Text Markup Language",
+            answer_c: "Happy Today Mad Later",
+            correct_answer: "b",
         },
         {
             id: 2,
-            question: "Are you okay?",
-            answer_a: "True",
-            answer_b: "False",
-            answer_c: "I don't know",
+            question: "Which HTML element gives us the largest heading?",
+            answer_a: "<h4>",
+            answer_b: "<heading12>",
+            answer_c: "<h1>",
             correct_answer: "c",
         },
         {
             id: 3,
-            question: "What time will I go to bed?",
-            answer_a: "11:30pm",
-            answer_b: "12:30am",
-            answer_c: "1:30am",
+            question: "What is the correct format for creating a Hyperlink in HTML?",
+            answer_a: "<a>'http://www.webdevquiz.com'</a>",
+            answer_b: "<a href='http://www.webdevquiz.com'>Link Name</a>",
+            answer_c: "<a url='http://www.webdevquiz.com'>Link Name</a>",
             correct_answer: "b",
+        },
+        {
+            id: 4,
+            question: "Which element is used to create a Table in HTML?",
+            answer_a: "<tl>",
+            answer_b: "<tbl>",
+            answer_c: "<table>",
+            correct_answer: "c",
+        },
+        {
+            id: 5,
+            question: "Which element is used to create a Dropdown List?",
+            answer_a: "<select>",
+            answer_b: "<dropdown>",
+            answer_c: "<dlist>",
+            correct_answer: "a",
         },
     ];
 
@@ -56,9 +72,9 @@ function GroupA() {
 
     const renderResultMark = (question, answer) => {
         if (question.correct_answer === answer.answer) {
-            return <span className='correct'> Correct </span>;
+            return <span className='correct'>Correct!</span>;
         }
-        return <span className='fail'> Wrong Answer </span>;
+        return <span className='fail'>Wrong Answer</span>;
     };
 
 
@@ -106,11 +122,23 @@ function GroupA() {
     if (showResults) {
         return (
             <div className='container text-center py-4' id='results'>
-                    <h2> Results </h2>
-                    <ul>{renderResultsData()}</ul>
-                <button className='btn btn-secondary btn-sm' onClick={restart} >
-                    Restart Quiz
-                </button>
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-10 text-center">
+                        <h1> Results </h1>
+                        <ul>{renderResultsData()}</ul>
+                        <button className='btn btn-secondary btn-sm' onClick={restart} >
+                        Restart Quiz
+                        </button>
+                    </div>
+                    <div class="col-md-0">
+
+                    </div>                  
+
+                </div>
+
                 <br />
                 <br />
                 <br />
@@ -120,25 +148,37 @@ function GroupA() {
     } else {
 
         return (
-            <div className="container text-center">
-            
+            <div className="container">
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-10 text-center">
+
+
+
+                    <h1 className="py-4"> HTML Quiz </h1>    
       
-                <Progress1 total={questions.length} current={currentQuestion + 1} /> 
-                <br />
-                <Question1 question={question.question} />
-                <p id='error'> {renderError()} </p>
-                <br />
-                <Answer1b question={question} currentAnswer={currentAnswer} handleClick={handleClick} />
-                <br />
-                <button className='btn btn-secondary btn-sm' onClick={next} >
+                    <Progress1 total={questions.length} current={currentQuestion + 1} /> 
+                    <br />
+                    <Question1 question={question.question} />
+                    <p id='error'> {renderError()} </p>
+                    <br />
+                    <Answer1b question={question} currentAnswer={currentAnswer} handleClick={handleClick} />
+                    <br />
+                    <button className='btn btn-secondary btn-sm' onClick={next} >
                     Submit Answer
-                </button>
-                <br />
-                <br />
-                <br />
-                <br />
-            
-      
+                    </button>
+                    </div>
+                    <div class="col-md-0">
+
+                    </div>
+                    
+                    <br />
+                    <br />
+                    <br />
+                    <br />
+                </div>
             </div>
         );
     }

@@ -6,8 +6,7 @@ import Home from '/Users/larryh1981/project05/src/components/Pages/Home';
 import GroupA from './components/Pages/GroupA';
 import GroupB from '/Users/larryh1981/project05/src/components/Pages/GroupB';
 import GroupC from '/Users/larryh1981/project05/src/components/Pages/GroupC';
-import Question1 from './components/Pages/QnAs/Question1';
-import Answer1 from './components/Pages/QnAs/Answer1';
+
 
 function App() {
   return (

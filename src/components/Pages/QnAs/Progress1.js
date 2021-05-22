@@ -2,7 +2,7 @@ import React from 'react';
 
 function Progress1(props) {
     return (
-        <h3 className="py-4">Question {props.current} of {props.total}  </h3> 
+        <h5 className="py-1">Question {props.current} of {props.total}</h5> 
         
             
         

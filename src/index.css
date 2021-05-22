@@ -17,6 +17,8 @@ code {
   color: black;
 }
 
+
+
 /* --- Questions --- */
 
 .ques {
@@ -57,11 +59,19 @@ code {
   border-color: black;
 }
 
+span, .correct {
+  color: blue;
+}
+
+span, .fail {
+  color: red;
+}
+
 /* ---- SidebarNav --- */
 
 .wrapper {
   display: flex;
-  position: fixed;
+  position: absolute;
   float: right;
   width: 250px;
   height: 100%;
@@ -86,10 +96,16 @@ code {
   
 }
 
-.navBrand, h1 {
+.navBrand {
   color: white;
 }
 
 li {
   list-style: none;
+}
+
+.navbtn {
+  background-color: red;
+  margin: 20px;
+  padding: 20px;
 }

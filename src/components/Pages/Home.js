@@ -5,11 +5,16 @@ import React from 'react';
 function Home() {
     return (
         <div className="container">
-            
-            <h2 className="text-center py-4"> Learning React is fun! </h2>
-            <br />
-            <br />
-            <br />
+            <div className="row">
+                <div class="col-md-2">
+                    
+                </div>
+                <div class="col-md-10 text-center">
+                    <h1 className="text-center py-4">Learning React is fun!</h1>
+                </div>
+            </div>           
+
+
         </div>
         
     );
