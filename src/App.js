@@ -6,6 +6,7 @@ import Home from '/Users/larryh1981/project05/src/components/Pages/Home';
 import GroupA from './components/Pages/GroupA';
 import GroupB from '/Users/larryh1981/project05/src/components/Pages/GroupB';
 import GroupC from '/Users/larryh1981/project05/src/components/Pages/GroupC';
+import Feedback from '/Users/larryh1981/project05/src/components/Pages/Feedback';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/GroupA.js" component={GroupA} />
         <Route path="/GroupB.js" component={GroupB} />
         <Route path="/GroupC.js" component={GroupC} />
+        <Route path="/Feedback.js" component={Feedback} />
       </Switch>
     </Router>
   

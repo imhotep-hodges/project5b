@@ -34,7 +34,12 @@ function Navbar() {
                     <Link to="/GroupC.js" className="nav-links">   
                     <button type="button" class="btn btn-danger btn-lg">Javascript Quiz</button>
                     </Link>
-                    </li>               
+                    </li> <br />
+                    <li className="nav-item">
+                    <Link to="/Feedback.js" className="nav-links">   
+                    <button type="button" class="btn btn-danger btn-lg">Feedback</button>
+                    </Link>
+                    </li>                
                 </ul>
 
             </div>
