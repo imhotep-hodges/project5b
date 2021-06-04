@@ -36,7 +36,7 @@ function Navbar() {
                     </Link>
                     </li> <br />
                     <li className="nav-item">
-                    <Link to="/Feedback.js" className="nav-links">   
+                    <Link to="/Form/Feedback.js" className="nav-links">   
                     <button type="button" class="btn btn-danger btn-lg">Feedback</button>
                     </Link>
                     </li>                

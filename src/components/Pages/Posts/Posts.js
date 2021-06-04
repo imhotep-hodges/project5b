@@ -1,7 +1,9 @@
 import React from 'react';
 import '/Users/larryh1981/project05/src/index.css';
+import Post from './Post/Post';
 
-function Feedback() {
+
+function Posts() {
     return (
         <div className="container">
             <div className="row">
@@ -9,7 +11,15 @@ function Feedback() {
                     
                 </div>
                 <div class="col-md-10 text-center">
-                    <h1 className="text-center py-4"> FEEDBACK </h1>
+
+                    <>
+                        <h1 className="text-center py-4"> Posts </h1>
+                        <Post />
+                    </>
+
+
+
+                    
                 </div>
             </div>           
 
@@ -20,5 +30,4 @@ function Feedback() {
 };
 
 
-
-export default Feedback;
+export default Posts;

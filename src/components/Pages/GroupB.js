@@ -55,7 +55,7 @@ function GroupB() {
     ];
 
 
-    const question = questions [currentQuestion];
+    const question = questions[currentQuestion];
 
     const handleClick = e => {
         setCurrentAnswer(e.target.value)
