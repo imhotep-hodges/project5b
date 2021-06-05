@@ -25,7 +25,7 @@ function App() {
       <Router>     
         <Navbar />
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/Home.js" exact component={Home} />
           <Route path="/GroupA.js" component={GroupA} />
           <Route path="/GroupB.js" component={GroupB} />
           <Route path="/GroupC.js" component={GroupC} />

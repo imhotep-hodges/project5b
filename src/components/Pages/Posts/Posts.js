@@ -1,9 +1,11 @@
 import React from 'react';
 import '/Users/larryh1981/project05/src/index.css';
 import Post from './Post/Post';
+import { useSelector } from 'react-redux';
 
 
-function Posts() {
+const Posts = () => {
+    const posts = useSelector((state) => state.posts);
     return (
         <div className="container">
             <div className="row">
