@@ -10,6 +10,7 @@ app.use(cors());
 
 app.use('/posts', postRoutes);
 
+
 const CONNECTION_URL = "mongodb+srv://larryhadmin:Bingo2021@cluster0.iihlr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 const PORT = process.env.PORT || 5000;
 
