@@ -13,7 +13,7 @@ function Navbar() {
                 
                 <ul className="btn-group-vertical" role="group" aria-label="Basic example">
                 <li className="nav-item">
-                    <Link to="/Home.js" className="nav-links"> 
+                    <Link to="/" className="nav-links"> 
                       <button type="button" class="btn btn-danger btn-lg">Home</button>
                     </Link>
                     </li>

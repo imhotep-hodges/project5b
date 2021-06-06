@@ -1,14 +1,13 @@
 import mongoose from 'mongoose';
 import cors from 'cors';
 import express, { json } from 'express';
-import postRoutes from './routes/posts.js';
+
 
 const app = express();
 
 app.use(json());
 app.use(cors());
 
-app.use('/posts', postRoutes);
 
 
 const CONNECTION_URL = "mongodb+srv://larryhadmin:Bingo2021@cluster0.iihlr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"

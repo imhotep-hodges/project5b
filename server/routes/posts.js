@@ -1,4 +1,5 @@
 import express from 'express';
+/*
 import { getPosts, createPost } from '/Users/larryh1981/project05/server/controllers/post.js';
 
 
@@ -8,3 +9,4 @@ router.get('/', getPosts);
 router.post('/', createPost);
   
 export default router;
+*/

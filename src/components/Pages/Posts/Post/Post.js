@@ -1,7 +1,13 @@
 import React from 'react';
-import '/Users/larryh1981/project05/src/index.css';
+import { getPosts } from './actions/postAction.js';
 
 function Post() {
+    const dispatch = useDispatch();
+
+    useEffect(() => {
+      dispatch(getPosts());
+    }, [dispatch]);
+
     return (
         <div className="container">
             <div className="row">
